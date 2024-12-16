@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yik Kan Sze - JavaScript Accordion</title>
+    <meta name="description" content="Yik Kan Sze - JavaScript Accordion" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>JavaScript Accordion</h1>
+
+    <div class="accordion">
+      <div>
+        <a href="#" onclick="openSection('section-1')">Section 1</a>
+      </div>
+      <div class="accordion-section" id="section-1">
+        <h2>Section 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+          odio?
+        </p>
+        <p>Ipsum dolor sit amet.</p>
+      </div>
+
+      <div>
+        <a href="#" onclick="openSection('section-2')">Section 2</a>
+      </div>
+      <div class="accordion-section" id="section-2">
+        <h2>Section 2</h2>
+        <p>
+          Sit amet consectetur adipisicing elit. Doloremque nobis eos tempore
+          incidunt eaque inventore?
+        </p>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+
+      <div>
+        <a href="#" onclick="openSection('section-3')">Section 3</a>
+      </div>
+      <div class="accordion-section" id="section-3">
+        <h2>Section 3</h2>
+        <p>Dolor sit amet consectetur, adipisicing elit lorem ipsum.</p>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

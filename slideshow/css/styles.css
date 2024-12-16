@@ -1,0 +1,3 @@
+.slideshow > .slide ~ .slide {
+  display: none;
+}
